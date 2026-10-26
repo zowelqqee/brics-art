@@ -679,6 +679,12 @@ a { color: inherit; }
   color: rgba(255, 255, 255, .86);
 }
 .contact-row a { color: #fff; text-underline-offset: 4px; }
+.contact-note {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, .7);
+}
 
 .footer-bottom {
   margin-top: clamp(32px, 4vw, 48px);
