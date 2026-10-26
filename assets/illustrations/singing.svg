@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F9A4E"/>
+      <stop offset="1" stop-color="#5CC277"/>
+    </linearGradient>
+    <linearGradient id="mic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7AD38D"/>
+      <stop offset="1" stop-color="#3FA55B"/>
+    </linearGradient>
+    <clipPath id="head"><circle cx="218" cy="48" r="38"/></clipPath>
+  </defs>
+  <g style="mix-blend-mode:multiply">
+    <path d="M0 150 C60 112 128 112 182 140 S264 182 300 146 L300 200 L0 200 Z" fill="#9BD9A9" opacity=".55"/>
+    <path d="M-10 196 C40 128 104 100 168 128 C214 148 246 150 312 104" fill="none" stroke="url(#g1)" stroke-width="30" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <g style="mix-blend-mode:multiply">
+    <line x1="118" y1="206" x2="194" y2="88" stroke="#2C8A47" stroke-width="20" stroke-linecap="round"/>
+    <line x1="186" y1="100" x2="204" y2="72" stroke="#1F7038" stroke-width="28" stroke-linecap="round"/>
+    <circle cx="218" cy="48" r="38" fill="url(#mic)"/>
+  </g>
+  <g clip-path="url(#head)" stroke="#fff" stroke-width="2.5" opacity=".28">
+    <line x1="170" y1="20" x2="250" y2="100"/>
+    <line x1="186" y1="6" x2="266" y2="86"/>
+    <line x1="154" y1="36" x2="234" y2="116"/>
+    <line x1="246" y1="6" x2="166" y2="86"/>
+    <line x1="262" y1="22" x2="182" y2="102"/>
+    <line x1="230" y1="-10" x2="150" y2="70"/>
+  </g>
+  <ellipse cx="204" cy="32" rx="13" ry="8" fill="#fff" opacity=".35" transform="rotate(-35 204 32)"/>
+  <path d="M-10 172 C52 136 104 150 150 172 C196 194 250 192 312 164" fill="none" stroke="#B8E6C2" stroke-width="14" stroke-linecap="round" opacity=".85"/>
+</svg>

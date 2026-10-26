@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="skirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F9D15E"/>
+      <stop offset="1" stop-color="#F4B63C"/>
+    </linearGradient>
+    <linearGradient id="drape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6A23C"/>
+      <stop offset="1" stop-color="#EE7F22"/>
+    </linearGradient>
+  </defs>
+  <path d="M-10 146 C50 116 110 146 150 172 C178 190 204 198 232 206 L-10 206 Z" fill="#FBE29A" opacity=".85"/>
+  <circle cx="205" cy="9" r="6" fill="#E8962F"/>
+  <rect x="201" y="12" width="8" height="15" rx="3" fill="#E8962F"/>
+  <g style="mix-blend-mode:multiply">
+    <path d="M178 30 C188 23 222 23 232 30 C234 50 226 72 219 92 L191 92 C184 72 176 50 178 30 Z" fill="#F2A93B"/>
+    <path d="M191 94 L219 94 C236 120 266 150 302 172 L302 206 L104 206 C122 176 168 130 191 94 Z" fill="url(#skirt)"/>
+    <path d="M206 96 C222 130 240 168 238 206 L176 206 C196 172 204 134 206 96 Z" fill="url(#drape)" opacity=".8"/>
+  </g>
+  <path d="M196 98 C180 134 152 170 130 206 L160 206 C176 170 190 134 196 98 Z" fill="#FDE592" opacity=".9"/>
+  <rect x="188" y="88" width="34" height="9" rx="4.5" fill="#E07B22"/>
+  <path d="M190 34 Q205 46 220 34" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".55"/>
+</svg>

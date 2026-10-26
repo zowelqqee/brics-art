@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6FA6FF"/>
+      <stop offset="1" stop-color="#3D7FF0"/>
+    </linearGradient>
+    <linearGradient id="h2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3D7FF0"/>
+      <stop offset="1" stop-color="#1F5FD6"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 200 C90 160 170 150 300 170 L300 200 Z" fill="#CFE0FF" opacity=".7"/>
+  <!-- left hand -->
+  <g transform="translate(112 132) rotate(-18)" style="mix-blend-mode:multiply" opacity=".95">
+    <g stroke="url(#h1)" stroke-width="15" stroke-linecap="round" fill="none">
+      <line x1="-21" y1="-6" x2="-23" y2="-50"/>
+      <line x1="-7" y1="-10" x2="-7" y2="-64"/>
+      <line x1="7" y1="-10" x2="8" y2="-60"/>
+      <line x1="21" y1="-6" x2="23" y2="-44"/>
+      <line x1="-26" y1="22" x2="-50" y2="-2"/>
+    </g>
+    <path d="M-29 -10 Q0 -18 29 -10 L28 34 Q22 60 0 66 Q-22 60 -28 34 Z" fill="url(#h1)"/>
+    <rect x="-20" y="60" width="40" height="70" rx="12" fill="url(#h1)"/>
+  </g>
+  <!-- right hand -->
+  <g transform="translate(196 150) rotate(16)" style="mix-blend-mode:multiply" opacity=".95">
+    <g stroke="url(#h2)" stroke-width="15" stroke-linecap="round" fill="none">
+      <line x1="-21" y1="-6" x2="-24" y2="-42"/>
+      <line x1="-7" y1="-10" x2="-8" y2="-58"/>
+      <line x1="7" y1="-10" x2="7" y2="-62"/>
+      <line x1="21" y1="-6" x2="22" y2="-48"/>
+      <line x1="26" y1="22" x2="50" y2="-2"/>
+    </g>
+    <path d="M-29 -10 Q0 -18 29 -10 L28 34 Q22 60 0 66 Q-22 60 -28 34 Z" fill="url(#h2)"/>
+    <rect x="-20" y="60" width="40" height="70" rx="12" fill="url(#h2)"/>
+  </g>
+  <!-- motion lines -->
+  <g stroke-linecap="round" fill="none">
+    <line x1="150" y1="44" x2="162" y2="20" stroke="#2F6FE0" stroke-width="7"/>
+    <line x1="174" y1="54" x2="196" y2="36" stroke="#2F6FE0" stroke-width="7"/>
+    <line x1="132" y1="38" x2="134" y2="14" stroke="#43B8A0" stroke-width="6"/>
+  </g>
+</svg>

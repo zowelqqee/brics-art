@@ -1,0 +1,8 @@
+# local / tooling
+.DS_Store
+.claude/
+.vercel
+.env*
+
+# source brief with internal notes — not published
+*.pdf
