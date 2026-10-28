@@ -611,21 +611,26 @@ a { color: inherit; }
   justify-content: center;
   height: 100%;
   min-height: 200px;
-  padding: 32px 56px;
+  padding: 32px 40px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: #fff;
   text-decoration: none;
   transition: border-color .25s, box-shadow .25s, transform .25s;
 }
-.org-card:hover {
+a.org-card:hover {
   border-color: #cdd5ea;
   box-shadow: 0 16px 36px rgba(11, 26, 78, .09);
   transform: translateY(-3px);
 }
-.org-logo { width: auto; height: auto; }
-.org-logo--wba { height: 128px; }
-.org-logo--megastar { width: min(100%, 360px); }
+.org-logo {
+  width: auto;
+  max-width: 100%;
+  height: 128px;
+  object-fit: contain;
+}
+/* round emblem reads smaller than the wordmarks at the same height */
+.org-logo--round { height: 148px; }
 
 .org-arrow {
   position: absolute;
@@ -865,7 +870,8 @@ a { color: inherit; }
   .program-icon { width: 52px; height: 52px; }
 
   .org-card { min-height: 170px; }
-  .org-logo--wba { height: 104px; }
+  .org-logo { height: 104px; }
+  .org-logo--round { height: 120px; }
 
   .contact-row { grid-template-columns: 110px auto; }
 }
